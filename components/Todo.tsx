@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {StyleSheet, View, Text, Pressable, TextInput} from "react-native";
+import {Pressable, StyleSheet, Text, TextInput, View} from "react-native";
 
 export default function Todo() {
     const [newTodo, setNewTodo] = useState('');
